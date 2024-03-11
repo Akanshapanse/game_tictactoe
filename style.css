@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background-color:#507DBC;
+   text-align: center;
+   
+   /* Coolor website choosen from cooler website
+    https://coolors.co/ffbf00-e83f6f-2274a5-32936f-ffffff*/
+}
+
+.container{
+    height:70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin; /* dinamic height, 70% of viewport height */
+   
+}
+.game{
+    
+    height: 60vmin;  /* vmin is 1% of viewport smallest dimention */
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+
+
+    
+    
+        }
+.box{
+    height: 18vmin; /* 60/3 = 20% that's why we gave 18vmin */
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 16px rgb(148, 11, 11);
+    font-size: 8vmin;
+    color: #b04156;
+    background-color: rgba(226, 237, 239, 0.467);
+
+}
+.reset-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: rgb(21, 20, 20);
+    border-radius: 1rem;
+    border: none;
+    color: whitesmoke;
+}
+.new-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: rgb(21, 20, 20);
+    border-radius: 1rem;
+    border: none;
+    color: whitesmoke
+}
+#msg{
+    color: rgb(146, 17, 17);
+    font-size: 8vmin;
+}
+.msg-container{
+    height: 20vmin;
+}
+.hide{
+    display: none;
+}
